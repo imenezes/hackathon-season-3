@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginStart="@dimen/_10dp"
+    android:layout_marginEnd="@dimen/_10dp"
+    android:orientation="vertical"
+    tools:context=".Activity.SubmissionScreen">
+    <com.here.sdk.mapviewlite.MapViewLite
+        android:id="@+id/map_view"
+        android:layout_width="match_parent"
+        android:layout_height="200dp">
+    </com.here.sdk.mapviewlite.MapViewLite>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:id="@+id/txtMerchantName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/merchantName"
+            android:textColor="@color/colorPrimary"
+            android:layout_margin="@dimen/_5dp"/>
+
+        <EditText
+            android:id="@+id/et_merchant_Name"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/padding_50dp"
+            android:layout_below="@id/txtMerchantName"
+            android:paddingStart="@dimen/_10dp"
+            android:paddingEnd="0dp"
+            android:textColor="@color/black"
+            android:enabled="false"
+            android:background="@drawable/tab_view_border"
+            android:textSize="20sp"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:id="@+id/txtMerchantNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/hint_mobile"
+            android:textColor="@color/colorPrimary"
+            android:layout_margin="@dimen/_5dp"/>
+
+        <EditText
+            android:id="@+id/et_MerchantNumber"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/padding_50dp"
+            android:layout_below="@id/txtMerchantNumber"
+            android:paddingStart="@dimen/_10dp"
+            android:textColor="@color/black"
+            android:inputType="number|phone"
+            android:digits="1234567890+"
+            android:maxLength="10"
+            android:paddingEnd="0dp"
+            android:background="@drawable/tab_view_border"
+            android:textSize="20sp"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:id="@+id/txtTime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/timing"
+            android:textColor="@color/colorPrimary"
+            android:layout_margin="@dimen/_5dp"/>
+
+        <EditText
+            android:id="@+id/et_Time"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/padding_50dp"
+            android:layout_below="@id/txtTime"
+            android:paddingStart="@dimen/_10dp"
+            android:textColor="@color/black"
+            android:paddingEnd="0dp"
+            android:background="@drawable/tab_view_border"
+            android:textSize="20sp"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:id="@+id/txtType"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Type"
+            android:textColor="@color/colorPrimary"
+            android:layout_margin="@dimen/_5dp"/>
+
+        <Spinner
+            android:id="@+id/spn_type"
+            style="@style/DialogBox"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:entries="@array/type"
+            android:layout_below="@id/txtType"
+            android:theme="@style/spinnerTheme"
+            android:spinnerMode="dialog" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:id="@+id/txtRating"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/rating"
+            android:textColor="@color/colorPrimary"
+            android:layout_margin="@dimen/_5dp"/>
+
+        <EditText
+            android:id="@+id/ed_rating"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/padding_50dp"
+            android:layout_below="@id/txtRating"
+            android:paddingStart="@dimen/_10dp"
+            android:textColor="@color/black"
+            android:inputType="number"
+            android:paddingEnd="0dp"
+            android:background="@drawable/tab_view_border"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/padding_20dp">
+
+        <Button
+            android:id="@+id/btn_submit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/padding_50dp"
+            android:layout_marginEnd="@dimen/padding_50dp"
+            android:background="@color/colorPrimary"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:text="@string/submit"/>
+
+    </RelativeLayout>
+
+</LinearLayout>

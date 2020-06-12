@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/tab_view_border"
+        android:layout_weight="1">
+        <TextView
+            android:id="@+id/txtMerchantName"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/padding_50dp"
+            android:padding="@dimen/_5dp"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_18sp"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/tab_view_border"
+        android:layout_weight="1">
+        <TextView
+            android:id="@+id/txtMerchantNumber"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/padding_50dp"
+            android:padding="@dimen/_5dp"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_18sp"/>
+    </RelativeLayout>
+
+</LinearLayout>

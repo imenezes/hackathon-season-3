@@ -1,0 +1,70 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="text_10sp">10sp</dimen>
+    <dimen name="text_12sp">12sp</dimen>
+    <dimen name="text_14sp">14sp</dimen>
+    <dimen name="text_16sp">16sp</dimen>
+    <dimen name="text_18sp">18sp</dimen>
+    <dimen name="text_20sp">20sp</dimen>
+
+    <!--common app padding/margins-->
+    <dimen name="padding_2dp">2dp</dimen>
+    <dimen name="padding_3dp">3dp</dimen>
+    <dimen name="padding_4dp">4dp</dimen>
+    <dimen name="padding_5dp">5dp</dimen>
+    <dimen name="padding_7dp">7dp</dimen>
+    <dimen name="padding_10dp">10dp</dimen>
+    <dimen name="padding_12dp">12dp</dimen>
+    <dimen name="padding_24dp">24dp</dimen>
+    <dimen name="padding_15dp">15dp</dimen>
+    <dimen name="padding_16dp">16dp</dimen>
+    <dimen name="padding_20dp">20dp</dimen>
+    <dimen name="padding_25dp">25dp</dimen>
+    <dimen name="padding_30dp">30dp</dimen>
+    <dimen name="padding_40dp">40dp</dimen>
+    <dimen name="padding_45dp">45dp</dimen>
+    <dimen name="padding_50dp">50dp</dimen>
+    <dimen name="padding_150dp">150dp</dimen>
+    <dimen name="padding_166dp">166dp</dimen>
+
+
+    <!--Welcome slider-->
+
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="dots_height">30dp</dimen>
+    <dimen name="dots_margin_bottom">70dp</dimen>
+    <dimen name="img_width_height">100dp</dimen>
+    <dimen name="slide_title">30dp</dimen>
+    <dimen name="slide_desc">16dp</dimen>
+    <dimen name="desc_padding">40dp</dimen>
+    <dimen name="nav_header_vertical_spacing">8dp</dimen>
+    <dimen name="nav_header_height">100dp</dimen>
+    <dimen name="_10dp">10dp</dimen>
+    <dimen name="_5dp">5dp</dimen>
+    <dimen name="buttonHeight">40dp</dimen>
+    <dimen name="_3dp">3dp</dimen>
+    <dimen name="Largetext">20sp</dimen>
+    <dimen name="_15dp">15dp</dimen>
+    <dimen name="tranTextSize">10dp</dimen>
+    <dimen name="_1dp">1dp</dimen>
+    <dimen name="text_25sp">25sp</dimen>
+    <dimen name="card_height">200dp</dimen>
+    <dimen name="userProfileWidth">120dp</dimen>
+    <dimen name="padding_60dp">60dp</dimen>
+    <dimen name="padding_70dp">70dp</dimen>
+    <dimen name="toolbar_height">60dp</dimen>
+    <dimen name="buttonWidth">150dp</dimen>
+    <dimen name="padding_100dp">100dp</dimen>
+    <dimen name="padding_80dp">80dp</dimen>
+    <dimen name="negative_5dp">-5dp</dimen>
+    <dimen name="negative_10dp">-10dp</dimen>
+    <dimen name="padding_35dp">35dp</dimen>
+    <dimen name="negative_15dp">-15dp</dimen>
+
+    <!--  <dimen name="nav_header_vertical_spacing">16dp</dimen>
+    <dimen name="nav_header_height">180dp</dimen>
+    <dimen name="appbar_padding_top">8dp</dimen>
+    <dimen name="text_margin">16dp</dimen>-->
+</resources>
